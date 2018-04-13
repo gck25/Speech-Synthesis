@@ -1,0 +1,6 @@
+#! /bin/tcsh -f
+
+if ($# == 0) then
+    echo "usage: traj2wav.sh -trajdir trajdir -outdir outdir -filename"
+    exit
+endif

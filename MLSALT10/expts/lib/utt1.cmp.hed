@@ -1,0 +1,4 @@
+ LT models/htk/tree.mcep.inf 
+ LT models/htk/tree.logF0.inf
+ LT models/htk/tree.bndap.inf
+ AU expts/utt1.cntxt

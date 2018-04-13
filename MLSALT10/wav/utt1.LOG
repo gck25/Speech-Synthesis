@@ -1,0 +1,8 @@
+./scripts/traj2wav.sh -trajdir traj-dur -outdir wav -filename utt1
+Spectral analysis method: Mel-cepstral analysis
+read F0[548]
+read spectrum[548][513]
+read aperiodic energy[548][21]
+    === STRAIGHT synthesis (graded excitation) ===
+straight synthesis done
+write wave: wav/utt1.wav

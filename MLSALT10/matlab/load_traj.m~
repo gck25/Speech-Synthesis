@@ -1,0 +1,8 @@
+% function [data info] = load_traj(file,size)
+   function [mcep,info] = load_traj(file,size)
+
+fid=fopen(file);
+mcep = fread(fid,[size,inf],'float32');
+info=size(mcep);
+
+fclose(fid);

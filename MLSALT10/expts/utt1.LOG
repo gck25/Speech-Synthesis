@@ -1,0 +1,160 @@
+HHEd -C /usr/local/teach/MLSALT10/Practical/lib/cfgs/local.cfg -B -A -D -V -T 1 -i -p -H models/htk/clustered.cmp.mmf -w expts/utt1.tmp.cmp.mmf expts/lib/utt1.cmp.hed models/htk/context.cmp.list 
+
+HTK Configuration Parameters[2]
+  Module/Tool     Parameter                  Value
+#                 NATURALWRITEORDER              TRUE
+#                 NATURALREADORDER              TRUE
+
+
+HTK Version Information
+Module     Version    Who    Date      : CVS Info
+HHEd       3.4.1      CUED   12/03/09  : $Id: HHEd.c,v 1.105 2011/06/16 05:18:47 uratec Exp $
+HShell     3.4.1      CUED   12/03/09  : $Id: HShell.c,v 1.15 2011/06/16 04:18:29 uratec Exp $
+HMem       3.4.1      CUED   12/03/09  : $Id: HMem.c,v 1.11 2011/06/16 04:18:29 uratec Exp $
+HLabel     3.4.1      CUED   12/03/09  : $Id: HLabel.c,v 1.12 2011/06/16 04:18:29 uratec Exp $
+HMath      3.4.1      CUED   12/03/09  : $Id: HMath.c,v 1.15 2011/06/16 04:18:29 uratec Exp $
+HSigP      3.4.1      CUED   12/03/09  : $Id: HSigP.c,v 1.8 2011/06/16 04:18:29 uratec Exp $
+HWave      3.4.1      CUED   12/03/09  : $Id: HWave.c,v 1.11 2011/06/16 04:18:29 uratec Exp $
+HAudio     3.4.1      CUED   12/03/09  : $Id: HAudio.c,v 1.9 2011/06/16 04:18:28 uratec Exp $
+HVQ        3.4.1      CUED   12/03/09  : $Id: HVQ.c,v 1.8 2011/06/16 04:18:29 uratec Exp $
+HModel     3.4.1      CUED   12/03/09  : $Id: HModel.c,v 1.6 2011-11-11 13:02:51 bonanza Exp $
+HParm      3.4.1      CUED   12/03/09  : $Id: HParm.c,v 1.15 2011/06/16 04:18:29 uratec Exp $
+HUtil      3.4.1      CUED   12/03/09  : $Id: HUtil.c,v 1.31 2011/06/16 04:18:29 uratec Exp $
+HAdapt     3.4.1      CUED   12/03/09  : $Id: HAdapt.c,v 1.31 2011-12-07 11:49:40 bonanza Exp $
+
+HHEd
+ 64558/49031 Models Loaded [7 states max, 2 mixes max]
+
+LT models/htk/tree.mcep.inf
+ Loading questions/trees from file
+
+LT models/htk/tree.logF0.inf
+ Loading questions/trees from file
+
+LT models/htk/tree.bndap.inf
+ Loading questions/trees from file
+
+AU expts/utt1.cntxt
+ Creating HMMset using trees to add unseen triphones
+ AU: 29 Log/29 Phys created from 64558 Log/49031 Phys
+
+Saving new HMM files ...
+Edit Complete
+
+HTK Configuration Parameters[2]
+  Module/Tool     Parameter                  Value
+                  NATURALWRITEORDER              TRUE
+                  NATURALREADORDER              TRUE
+
+HHEd -C /usr/local/teach/MLSALT10/Practical/lib/cfgs/local.cfg -B -A -D -V -T 1 -i -p -H models/htk/clustered.dur.mmf -w expts/utt1.tmp.dur.mmf expts/lib/utt1.dur.hed models/htk/context.dur.list 
+
+HTK Configuration Parameters[2]
+  Module/Tool     Parameter                  Value
+#                 NATURALWRITEORDER              TRUE
+#                 NATURALREADORDER              TRUE
+
+
+HTK Version Information
+Module     Version    Who    Date      : CVS Info
+HHEd       3.4.1      CUED   12/03/09  : $Id: HHEd.c,v 1.105 2011/06/16 05:18:47 uratec Exp $
+HShell     3.4.1      CUED   12/03/09  : $Id: HShell.c,v 1.15 2011/06/16 04:18:29 uratec Exp $
+HMem       3.4.1      CUED   12/03/09  : $Id: HMem.c,v 1.11 2011/06/16 04:18:29 uratec Exp $
+HLabel     3.4.1      CUED   12/03/09  : $Id: HLabel.c,v 1.12 2011/06/16 04:18:29 uratec Exp $
+HMath      3.4.1      CUED   12/03/09  : $Id: HMath.c,v 1.15 2011/06/16 04:18:29 uratec Exp $
+HSigP      3.4.1      CUED   12/03/09  : $Id: HSigP.c,v 1.8 2011/06/16 04:18:29 uratec Exp $
+HWave      3.4.1      CUED   12/03/09  : $Id: HWave.c,v 1.11 2011/06/16 04:18:29 uratec Exp $
+HAudio     3.4.1      CUED   12/03/09  : $Id: HAudio.c,v 1.9 2011/06/16 04:18:28 uratec Exp $
+HVQ        3.4.1      CUED   12/03/09  : $Id: HVQ.c,v 1.8 2011/06/16 04:18:29 uratec Exp $
+HModel     3.4.1      CUED   12/03/09  : $Id: HModel.c,v 1.6 2011-11-11 13:02:51 bonanza Exp $
+HParm      3.4.1      CUED   12/03/09  : $Id: HParm.c,v 1.15 2011/06/16 04:18:29 uratec Exp $
+HUtil      3.4.1      CUED   12/03/09  : $Id: HUtil.c,v 1.31 2011/06/16 04:18:29 uratec Exp $
+HAdapt     3.4.1      CUED   12/03/09  : $Id: HAdapt.c,v 1.31 2011-12-07 11:49:40 bonanza Exp $
+
+HHEd
+ 64558/9555 Models Loaded [3 states max, 1 mixes max]
+
+LT models/htk/tree.dur.inf
+ Loading questions/trees from file
+
+AU expts/utt1.cntxt
+ Creating HMMset using trees to add unseen triphones
+ AU: 29 Log/29 Phys created from 64558 Log/9555 Phys
+
+Saving new HMM files ...
+Edit Complete
+
+HTK Configuration Parameters[2]
+  Module/Tool     Parameter                  Value
+                  NATURALWRITEORDER              TRUE
+                  NATURALREADORDER              TRUE
+
+HHEd -C /usr/local/teach/MLSALT10/Practical/lib/cfgs/local.cfg -A -D -V -T 1 -i -p -H expts/utt1.tmp.cmp.mmf -w expts/utt1.cmp.mmf /dev/null expts/utt1.cntxt 
+
+HTK Configuration Parameters[2]
+  Module/Tool     Parameter                  Value
+#                 NATURALWRITEORDER              TRUE
+#                 NATURALREADORDER              TRUE
+
+
+HTK Version Information
+Module     Version    Who    Date      : CVS Info
+HHEd       3.4.1      CUED   12/03/09  : $Id: HHEd.c,v 1.105 2011/06/16 05:18:47 uratec Exp $
+HShell     3.4.1      CUED   12/03/09  : $Id: HShell.c,v 1.15 2011/06/16 04:18:29 uratec Exp $
+HMem       3.4.1      CUED   12/03/09  : $Id: HMem.c,v 1.11 2011/06/16 04:18:29 uratec Exp $
+HLabel     3.4.1      CUED   12/03/09  : $Id: HLabel.c,v 1.12 2011/06/16 04:18:29 uratec Exp $
+HMath      3.4.1      CUED   12/03/09  : $Id: HMath.c,v 1.15 2011/06/16 04:18:29 uratec Exp $
+HSigP      3.4.1      CUED   12/03/09  : $Id: HSigP.c,v 1.8 2011/06/16 04:18:29 uratec Exp $
+HWave      3.4.1      CUED   12/03/09  : $Id: HWave.c,v 1.11 2011/06/16 04:18:29 uratec Exp $
+HAudio     3.4.1      CUED   12/03/09  : $Id: HAudio.c,v 1.9 2011/06/16 04:18:28 uratec Exp $
+HVQ        3.4.1      CUED   12/03/09  : $Id: HVQ.c,v 1.8 2011/06/16 04:18:29 uratec Exp $
+HModel     3.4.1      CUED   12/03/09  : $Id: HModel.c,v 1.6 2011-11-11 13:02:51 bonanza Exp $
+HParm      3.4.1      CUED   12/03/09  : $Id: HParm.c,v 1.15 2011/06/16 04:18:29 uratec Exp $
+HUtil      3.4.1      CUED   12/03/09  : $Id: HUtil.c,v 1.31 2011/06/16 04:18:29 uratec Exp $
+HAdapt     3.4.1      CUED   12/03/09  : $Id: HAdapt.c,v 1.31 2011-12-07 11:49:40 bonanza Exp $
+
+HHEd
+ 29/29 Models Loaded [7 states max, 2 mixes max]
+
+Saving new HMM files ...
+Edit Complete
+
+HTK Configuration Parameters[2]
+  Module/Tool     Parameter                  Value
+                  NATURALWRITEORDER              TRUE
+                  NATURALREADORDER              TRUE
+
+HHEd -C /usr/local/teach/MLSALT10/Practical/lib/cfgs/local.cfg -A -D -V -T 1 -i -p -H expts/utt1.tmp.dur.mmf -w expts/utt1.dur.mmf /dev/null expts/utt1.cntxt 
+
+HTK Configuration Parameters[2]
+  Module/Tool     Parameter                  Value
+#                 NATURALWRITEORDER              TRUE
+#                 NATURALREADORDER              TRUE
+
+
+HTK Version Information
+Module     Version    Who    Date      : CVS Info
+HHEd       3.4.1      CUED   12/03/09  : $Id: HHEd.c,v 1.105 2011/06/16 05:18:47 uratec Exp $
+HShell     3.4.1      CUED   12/03/09  : $Id: HShell.c,v 1.15 2011/06/16 04:18:29 uratec Exp $
+HMem       3.4.1      CUED   12/03/09  : $Id: HMem.c,v 1.11 2011/06/16 04:18:29 uratec Exp $
+HLabel     3.4.1      CUED   12/03/09  : $Id: HLabel.c,v 1.12 2011/06/16 04:18:29 uratec Exp $
+HMath      3.4.1      CUED   12/03/09  : $Id: HMath.c,v 1.15 2011/06/16 04:18:29 uratec Exp $
+HSigP      3.4.1      CUED   12/03/09  : $Id: HSigP.c,v 1.8 2011/06/16 04:18:29 uratec Exp $
+HWave      3.4.1      CUED   12/03/09  : $Id: HWave.c,v 1.11 2011/06/16 04:18:29 uratec Exp $
+HAudio     3.4.1      CUED   12/03/09  : $Id: HAudio.c,v 1.9 2011/06/16 04:18:28 uratec Exp $
+HVQ        3.4.1      CUED   12/03/09  : $Id: HVQ.c,v 1.8 2011/06/16 04:18:29 uratec Exp $
+HModel     3.4.1      CUED   12/03/09  : $Id: HModel.c,v 1.6 2011-11-11 13:02:51 bonanza Exp $
+HParm      3.4.1      CUED   12/03/09  : $Id: HParm.c,v 1.15 2011/06/16 04:18:29 uratec Exp $
+HUtil      3.4.1      CUED   12/03/09  : $Id: HUtil.c,v 1.31 2011/06/16 04:18:29 uratec Exp $
+HAdapt     3.4.1      CUED   12/03/09  : $Id: HAdapt.c,v 1.31 2011-12-07 11:49:40 bonanza Exp $
+
+HHEd
+ 29/29 Models Loaded [3 states max, 1 mixes max]
+
+Saving new HMM files ...
+Edit Complete
+
+HTK Configuration Parameters[2]
+  Module/Tool     Parameter                  Value
+                  NATURALWRITEORDER              TRUE
+                  NATURALREADORDER              TRUE
+
